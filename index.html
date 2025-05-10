@@ -750,7 +750,7 @@
         <h1 class="hero-title">Unlock Exclusive Content</h1>
         <p class="hero-subtitle">Join my world for premium photoshoots, behind-the-scenes, and intimate moments you won't find anywhere else.</p>
         <div class="hero-cta">
-          <a href="https://onlyfans.com" class="btn btn-primary">Subscribe Now</a>
+          <a href="./paydetail.html" class="btn btn-primary">Subscribe Now</a>
           <a href="#gallery" class="btn btn-secondary">View Gallery</a>
         </div>
         <div class="social-proof">
@@ -760,7 +760,7 @@
             <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Fan" class="social-proof-img">
           </div>
           <div class="social-proof-text">
-            Join <strong>5,000+</strong> satisfied fans
+            Join <strong>95+</strong> fans
           </div>
         </div>
       </div>
@@ -772,20 +772,20 @@
     <div class="container about-container">
       <div class="about-content">
         <h2 class="section-title">About Me</h2>
-        <p>Hey there! I'm Séduxa, a passionate content creator specializing in artistic and sensual photography. My mission is to create a space where beauty, confidence, and self-expression come together.</p>
-        <p>With a background in fine arts and fashion, I bring a unique perspective to my content, blending aesthetic appeal with authentic intimacy.</p>
+        <p>Hey there! I'm Apeksha, a passionate content creator specializing in artistic and sensual photography. My mission is to create a space where beauty, confidence, and self-expression come together.</p>
+        <p>With a background in fine arts and fashion, I bring a unique perspective to my content, blending aesthetic appeal with authentic melding.</p>
         <div class="stats">
           <div class="stat-item">
-            <div class="stat-number">5K+</div>
+            <div class="stat-number">95+</div>
             <div class="stat-label">Fans</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">500+</div>
+            <div class="stat-number">355+</div>
             <div class="stat-label">Posts</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">100%</div>
-            <div class="stat-label">Satisfaction</div>
+            <div class="stat-label">Bliss</div>
           </div>
         </div>
       </div>
@@ -853,19 +853,19 @@
       <div class="pricing-container">
         <div class="pricing-card">
           <h3 class="pricing-title">Basic</h3>
-          <div class="pricing-price">$9.99<span>/month</span></div>
+          <div class="pricing-price">₹599<span>/month</span></div>
           <ul class="pricing-features">
             <li>Access to all public posts</li>
             <li>Weekly content updates</li>
             <li>Direct messaging</li>
             <li>Limited PPV content</li>
           </ul>
-          <a href="#" class="btn btn-primary">Choose Plan</a>
+          <a href="./Pymt.html" class="btn btn-primary">Choose Plan</a>
         </div>
         <div class="pricing-card popular">
           <div class="popular-badge">Most Popular</div>
           <h3 class="pricing-title">Premium</h3>
-          <div class="pricing-price">$19.99<span>/month</span></div>
+          <div class="pricing-price">₹999<span>/month</span></div>
           <ul class="pricing-features">
             <li>All Basic benefits</li>
             <li>Daily exclusive content</li>
@@ -877,7 +877,7 @@
         </div>
         <div class="pricing-card">
           <h3 class="pricing-title">VIP</h3>
-          <div class="pricing-price">$49.99<span>/month</span></div>
+          <div class="pricing-price">₹1999<span>/one time</span></div>
           <ul class="pricing-features">
             <li>All Premium benefits</li>
             <li>Exclusive VIP content</li>
@@ -897,7 +897,7 @@
       <h2 class="section-title">What My Fans Say</h2>
       <div class="testimonials-container">
         <div class="testimonial-card">
-          <p class="testimonial-text">Séduxa's content is absolutely stunning. The artistic quality combined with her authentic personality makes this subscription worth every penny.</p>
+          <p class="testimonial-text">Séduxa's content creators is absolutely stunning. The artistic quality combined with her authentic personality makes this subscription worth every penny.</p>
           <div class="testimonial-author">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Fan" class="author-img">
             <div class="author-info">
@@ -944,7 +944,7 @@
     <div class="container">
       <div class="footer-container">
         <div class="footer-col">
-          <h3>Séduxa</h3>
+          <h3>Apeksha</h3>
           <p>Premium content creator specializing in artistic and sensual photography that celebrates confidence and beauty.</p>
           <div class="social-links">
             <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
@@ -976,8 +976,8 @@
         <div class="footer-col">
           <h3>Contact</h3>
           <ul class="footer-links">
-            <li><a href="mailto:Séduxa@example.com">Séduxa@example.com</a></li>
-            <li><a href="#">OnlyFans DM</a></li>
+            <li><a href="mailto:Séduxa@oxgen.com">Séduxa@oxgen.com</a></li>
+            <li><a href="#">DM Fans</a></li>
             <li><a href="#">Custom Requests</a></li>
             <li><a href="#">Collaborations</a></li>
           </ul>
@@ -1016,4 +1016,13 @@
         const targetId = this.getAttribute('href');
         if (targetId === '#') return;
         
-        const target
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 100,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+</script>
